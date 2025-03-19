@@ -1,0 +1,67 @@
+
+/* Main Content */
+#timetable-section {
+    width: 85%;
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 150px; 
+}
+
+/* Char with timetible */
+.timetable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Headers with background */
+.timetable th {
+    background: #45276e;
+    color: white;
+    padding: 12px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Cels */
+.timetable td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Gray rows */
+.timetable tr:nth-child(even) {
+    background: #f5f5f5;
+}
+
+.timetable tr:hover {
+    background: rgba(69, 39, 110, 0.1);
+}
+
+/* Responsiveness Feature */
+@media screen and (max-width: 768px) {
+    .timetable th, .timetable td {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+}
+
+
+/* Footer */
+#footer-section {
+    width: 80%;  /* Coincide con el ancho del footer */
+    max-width: 1000px;  /* Evita que sea demasiado ancho en pantallas grandes */
+    color: black;
+    padding: 30px 10px;
+    text-align: center;  /* Centra el texto */
+    margin: 30px auto 0;  /* Centra el footer */
+    border-radius: 10px;  /* Opcional, para suavizar las esquinas */
+}
